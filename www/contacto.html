@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estudio de Arquitectura Samuel Cruz</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link type="text/css" rel="stylesheet" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="css/global.css" />
+	<link type="text/css" rel="stylesheet" href="css/contact.css" />
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	
+</head>
+<body>
+	
+	<div id="center_wrap">
+	
+		<nav id="web_nav" class="shadow">
+			
+			<a id="nav_trig" href="#">
+				<img src="rsc/icons/menu.png" alt="Menú Principal" title="Menú Principal" />
+			</a>
+			
+			<ul>
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+				<li>
+					<a href="proyectos.html">Proyectos</a>
+				</li>
+				<li>
+					<a href="estudio.html">Estudio</a>
+				</li>
+				<li>
+					<a href="noticias.html">Noticias</a>
+				</li>
+				<li>
+					<a href="carrera.html">Carrera</a>
+				</li>
+				<li>
+					<a href="contacto.html" class="current">Contacto</a>
+				</li>
+			</ul>
+			
+		</nav>
+		
+		<section id="contact_map">
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.343408791812!2d-0.12858074149197296!3d51.506915483292325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce527589d9%3A0xf8bd2ed6c102b192!2sMonkam+Solicitors!5e0!3m2!1ses!2ses!4v1529927244721" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	
+		</section>
+		
+		<section id="address">
+			
+			<article>
+				<h3><i class="fa fa-map-marker"></i></h3>
+				<p>1 Northumberland Ave, Westminster, London WC2N 5BW, Reino Unido</p>
+			</article>	
+				
+			<article>	
+				<h3><i class="fa fa-phone"></i></h3>
+				<p>+44 7476 679608</p>
+			</article>	
+				
+			<article>	
+				<h3><i class="fa fa-envelope"></i></h3>
+				<p>contact@samuelandpartners.com</p>
+			</article>	
+				
+		</section>
+		
+		<div id="centrar">
+		
+			<form method="post" action="enviar.php">
+				
+				<ul>
+					
+					<li>
+						<label for="nombre">Nombre Completo *</label>
+						<input type="text" name="nombre" id="nombre" maxlength="60" placeholder="Nombre Completo..." />
+					</li>
+					
+					<li>
+						<label for="email">E-Mail *</label>
+						<input type="email" name="email" id="email" maxlength="60" placeholder="Ejemplo@ejemplo.com" />
+					</li>
+					
+					<li>
+						<label for="tfno">Teléfono</label>
+						<input type="text" name="tfno" id="tfno" maxlength="20" placeholder="Teléfono..." />
+					</li>
+					
+					<li>
+						<label for="mensaje">Asunto *</label>
+						<textarea name="mensaje" id="mensaje" placeholder="Cuéntanos..."></textarea>
+					</li>
+					
+					<li class="check_li">
+						<input type="checkbox" name="privacidad" id="privacidad" value="1" />
+						<label for="privacidad">He leido y Acepto la <a href="#">Política de Privacidad</a></label>
+					</li>
+					
+					<li>
+						<input type="submit" value="Enviar Formulario" />
+					</li>
+					
+				</ul>
+				
+			</form>
+			
+		</div>
+			
+		<footer id="main_footer">
+			<div>
+				<p>&copy; Derechos de autor 2018 Samuel + Partners. Todos los derechos reservados.</p>
+			</div>
+		</footer>
+		
+	</div>
+	
+	<script type="text/javascript">
+		
+		//jQuery
+		
+		$('#web_nav > a').click(function(e) {
+			$('#web_nav > ul').slideToggle(500);
+			e.preventDefault();
+		});
+		
+	</script>
+	
+</body>
+</html>

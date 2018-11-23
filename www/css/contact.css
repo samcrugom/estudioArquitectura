@@ -1,0 +1,241 @@
+
+
+	/*CONTACTO*/
+
+#contact_map {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin-top: 60px;
+	border-bottom: 1px solid #ccc;
+	/*box-shadow: 0 7px 7px rgba(0, 0, 0, .4);*/
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#address {
+	width: 100%;
+	margin-top: 80px;
+	padding: 10px 0;
+	background-color: #fff;
+	z-index: 99999;
+}
+
+#address article {
+	float: left;
+	box-sizing: border-box;
+	width: 33%;
+	height: 150px;
+	padding: 25px;
+	border-right: 1px dotted #333;
+}
+
+	#address article:last-child {
+		border-right: none;
+	}
+
+#address article h3 {
+	font: normal bold 35px Arial, Tahoma, sans-serif;
+	color: #333;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+#address article p {
+	font: normal normal 16px Arial, Tahoma, sans-serif;
+	color: #333;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 910px) {
+	
+	#address {
+	}
+	
+	#address article {
+		width: 100%;
+		padding: 4%;
+		border-right: none;
+	}
+	
+}
+
+	/*formulario*/
+
+#centrar {
+	width: 100%;
+	margin: 100px auto 50px auto;
+}
+
+#centrar form {
+	float: left;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 100px;
+}
+
+#centrar form ul {
+	float: left;
+	width: 100%;
+}
+
+#centrar form ul li {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+	#centrar form ul li:last-child {
+		margin: 10px 0 0 0;
+	}
+	
+	#centrar form ul li.check_li {
+		margin: 20px 0;
+	}
+
+#centrar form ul li label {
+	float: left;
+	box-sizing: border-box;
+	width: 25%;
+	padding: 10px 0;
+	font: normal normal 16px Arial, Tahoma, sans-serif;
+	text-align: left;
+	color: #333;
+}
+
+	#centrar form ul li.check_li label {
+		width: auto;
+		padding: 0;
+		background-color: transparent;
+		color: #303030;
+		margin: -2px;
+	}
+	
+	#centrar form ul li.check_li label a {
+		color: #999;
+		text-decoration: none;
+	}
+
+#centrar form ul li input {
+	float: left;
+	box-sizing: border-box;
+	width: 75%;
+	padding: 8px 10px;
+	font: normal normal 15px Arial, Tahoma, sans-serif;
+	color: #333;
+	border: 1px solid #999;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .2) inset;
+}
+
+	#centrar form ul li input[type="checkbox"] {
+		width: auto;
+		margin-right: 10px;
+	}
+	
+	#centrar form ul li input[type="submit"] {
+		float: right;
+		box-sizing: border-box;
+		width: auto;
+		padding: 15px 40px;
+		background: linear-gradient(#555, #333);
+		color: #fff;
+		border: 0;
+		border-top: 2px solid #333;
+		cursor: pointer;
+	}
+	
+		#centrar form ul li input[type="submit"]:hover {
+			background: linear-gradient(#555 50%, #333);
+		}
+	
+#centrar form ul li textarea {
+	float: left;
+	box-sizing: border-box;
+	width: 100%;
+	height: 120px;
+	padding: 8px 10px;
+	font: normal normal 15px Arial, Tahoma, sans-serif;
+	color: #303030;
+	border: 1px solid #999;
+	border-radius: 0 0 3px 3px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .2) inset;
+	resize: none;
+}
+
+#centrar form ul li select {
+	float: left;
+	width: 100%;
+	padding: 6px 3px;
+	font: normal normal 15px Arial, Tahoma, sans-serif;
+	color: #303030;
+	border: 1px solid #999;
+	border-top: 0;
+	border-radius: 0 0 3px 3px;
+}
+
+#centrar form ul li select option {
+	padding: 3px 5px;
+}
+
+	#centrar form ul li select option:nth-child(2n) {
+		background-color: #ddd;
+		color: #303030;
+	}
+
+
+
+@media (max-width: 910px) {
+		
+	#centrar {
+		width: 500px;
+		margin: 50px auto;
+	}
+	
+	#centrar form {
+		float: left;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 30px;
+		border-top: 1px solid #ccc;
+	}
+	
+	#centrar form ul {
+		float: left;
+		width: 100%;
+	}
+	
+	#centrar form ul li {
+		float: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	#centrar form ul li label {
+		float: left;
+		box-sizing: content-box;
+		width: 94%;
+		padding: 10px 3%;
+		font: normal normal 16px Arial, Tahoma, sans-serif;
+		text-align: center;
+		color: #333;
+	}
+	
+	#centrar form ul li input {
+		float: left;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 8px 10px;
+		font: normal normal 15px Arial, Tahoma, sans-serif;
+		color: #333;
+		border: 1px solid #999;
+		box-shadow: 0 2px 3px rgba(0, 0, 0, .2) inset;
+	}
+	
+
+	
+}
+	

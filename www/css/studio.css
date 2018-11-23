@@ -1,0 +1,54 @@
+
+
+	/*ESTUDIO*/
+
+header {
+	margin-top: 60px;
+	width: 100%;
+	height: 20vw;
+	min-height: 200px;
+	background: url("../rsc/backgrounds/seta_sevilla.jpeg") center center no-repeat scroll;
+	background-size: cover;
+}
+
+#contents article {
+	width: 88%;
+	margin: 35px auto 30px auto;
+}
+
+#contents article h3 {
+	margin-bottom: 10px;
+	font: normal bold 25px Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#contents article p {
+	margin-top: 20px;
+	font: normal normal 16px Arial, Tahoma, sans-serif;
+	text-align: center;
+}
+
+#casa {
+	width: 400px;
+	margin: 50px auto;
+}
+
+#casa img {
+	width: 100%;
+}
+
+#medioambiente {
+	width: 400px;
+	margin: 50px auto;
+}
+
+#medioambiente img {
+	width: 100%;
+}
+
+@media (max-width: 430px) {
+	#casa, #medioambiente {
+		width: 90%;
+	}
+}

@@ -1,0 +1,173 @@
+
+
+	/*Por encima de 1600px*/
+
+
+@media (min-width: 1200px) {
+	
+	#center_wrap {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	
+	#wrap {
+		width: 100%;
+		height: 60px;
+	}
+	
+}
+
+	/*Por debajo de 1600px*/
+
+	
+@media (max-width: 1200px) {
+	
+	#center_wrap {
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
+.shadow {
+	box-shadow: 0 1px rgba(0, 0, 0, .3);
+}
+
+
+	/*NAV*/
+	
+#web_nav {
+    position: fixed;
+    top: 0;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(255, 255, 255, 1);
+	z-index: 999999;
+}
+
+@media (min-width: 1200px) {
+	
+	#web_nav {
+		width: 1200px;
+		margin: 0;
+	}
+	
+}
+
+#web_nav a#nav_trig {
+	display: none;
+}
+
+#web_nav ul {
+	float: right;
+	margin-right: 10px;
+}
+
+#web_nav ul li {
+	float: left;
+}
+
+#web_nav ul li a {
+	float: left;
+	padding: 15px 10px;
+	font: normal normal 16px Arial, Tahoma, sans-serif;
+	color: #333;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: padding-top .2s;
+}
+
+	#web_nav ul li a:hover {
+		border-top: 2px solid #333;
+		padding-top: 18px;
+	}
+	
+	#web_nav ul li a.current {
+        border-top: 2px solid #333;
+		padding: 18px 10px;
+	}
+	
+	/*Por debajo de 700px*/
+    
+@media all and (max-width: 700px) {
+	
+	#web_nav a#nav_trig {
+		display: inline-block;
+		float: right;
+		width: 24px;
+		height: 24px;
+		margin: 18px 18px;
+	}
+	
+	#web_nav a#nav_trig img {
+		float: left;
+		width: 100%;
+		margin: 0;
+	}
+	
+	#web_nav ul {
+		float: left;
+		width: 100%;
+		margin: 0;
+		display: none;
+	}
+	
+	#web_nav ul li {
+		width: 100%;
+		margin: 0;
+        background: linear-gradient(to left, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 60%);
+	}
+	
+	#web_nav ul li a {
+		width: 90%;
+		padding: 10px 5%;
+        text-align: right;
+		transition: padding .3s;
+	}
+		
+		#web_nav ul li a:hover {
+			box-sizing: border-box;
+			width: 100%;
+			padding: 10px 8% 10px 5%;
+            border-top: 0;
+			border-right: 3px solid #333;
+			color: #000;
+		}
+		
+		#web_nav ul li a.current {
+			box-sizing: border-box;
+			width: 100%;
+			padding: 10px 8% 10px 5%;
+            border-top: 0;
+			border-right: 3px solid #333;
+			color: #000;
+		}
+	
+}
+
+	/*FOOTER*/
+	
+#main_footer {
+	float: left;
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+#main_footer div {
+	float: left;
+	height: 100%;
+}
+
+	#main_footer div:first-child {
+		float: left;
+		width: 50%;
+	}
+
+#main_footer div p {
+	display: block;
+	padding: 20px 3%;
+	font: normal normal 11px Arial, Tahoma, sans-serif;
+	color: #333;
+}
+
+

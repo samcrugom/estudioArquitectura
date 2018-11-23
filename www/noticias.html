@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estudio de Arquitectura Samuel Cruz</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link type="text/css" rel="stylesheet" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="css/global.css" />
+	<link type="text/css" rel="stylesheet" href="css/contents.css" />
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	
+</head>
+<body>
+	
+	<div id="center_wrap">
+	
+		<nav id="web_nav">
+			
+			<a id="nav_trig" href="#">
+				<img src="rsc/icons/menu.png" alt="Menú Principal" title="Menú Principal" />
+			</a>
+			
+			<ul>
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+				<li>
+					<a href="proyectos.html">Proyectos</a>
+				</li>
+				<li>
+					<a href="estudio.html">Estudio</a>
+				</li>
+				<li>
+					<a href="noticias.html" class="current">Noticias</a>
+				</li>
+				<li>
+					<a href="carrera.html">Carrera</a>
+				</li>
+				<li>
+					<a href="contacto.html">Contacto</a>
+				</li>
+			</ul>
+			
+		</nav>
+		
+		<section id="contents">
+			
+			
+		</section>
+		
+		
+		
+	</div>
+	
+	<script type="text/javascript">
+		
+		//jQuery
+		
+		$('#web_nav > a').click(function(e) {
+			$('#web_nav > ul').slideToggle(500);
+			e.preventDefault();
+		});
+		
+	</script>
+	
+</body>
+</html>

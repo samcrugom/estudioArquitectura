@@ -1,0 +1,80 @@
+
+
+	/*ESTUDIO*/
+
+#contents h2 {
+	margin:  70px 0 30px 15px;
+	font: normal bold 25px Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+	color: #333;
+}
+
+#contents ul {
+	float: left;
+	width: 100%;
+}
+
+#contents ul li {
+	float: left;
+	width: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+#contents ul li a {
+	float: left;
+	width: 100%;
+	text-decoration: none;
+}
+
+#contents ul li a img {
+	float: left;
+	width: 100%;
+	transition: transform 1.5s;
+}
+
+	#contents ul li a:hover img{
+		transform: scale(1.1);
+	}
+
+#contents ul li a div {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+	#contents ul li a:hover div {
+		opacity: 1;
+	}
+
+h3.hover_block {
+	float: left;	
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font: normal normal 18px Arial, Tahoma, sans-serif;
+	color: #fff;
+}
+
+@media (max-width: 512px) {
+	#contents h2 {
+		font-size: 20px;
+	}
+
+	#contents ul li {
+		width: 100%;
+	}
+
+	h3.hover_block {
+		font-size: 16px;
+	}
+}
+
+
